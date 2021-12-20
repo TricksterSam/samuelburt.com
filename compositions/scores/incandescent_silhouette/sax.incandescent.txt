@@ -1,0 +1,18 @@
+The Pd patch "sax.incandescent.pd" is the optional electronic part to both Incandescent Silhouette and Sprite's Eye. It might even be applicable to other solo unaccompanied monophonic compositions.
+
+This patch requires pvoc~ and mindwarp~ from the fftease library.
+
+This patch listens to monophonic input and does the following:
+• Tracks the pitch, but only makes note of every 7th, 5th, and 4th notes.
+• Sends the values derived from tracking the pitch into three separate delay lines.
+• Places the live sound into three separate delay buffers.
+• Retunes the delayed sound based on the delayed tracked pitches.
+
+Ultimately, this creates a harmony out of the melody of the saxophone. The computer imitates the saxophone's rhythms, but plays them without melodic shape on repeating notes derived from the saxophone line.
+
+Some glitches are par for the course and often sound interesting.
+
+To use this patch:
+1) Set your values of portamento, volume of the processed sound, input level, and delay lengths for the three delay lines.
+2) Store your value in slots 1-5. (3 is the setting used during the first performance. Feel free to save over it.)
+3) Turn input on. (Watch out when testing with laptop mic and speakers.

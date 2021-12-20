@@ -1,0 +1,876 @@
+html, body {
+height:100%;
+}
+
+#background {
+color:#339999;
+}
+
+#page_title {
+position:relative;
+top:20px;
+left:10px;
+width:235px;
+visibility: hidden;
+}
+
+#page_title-root {
+position:relative;
+top:10px;
+left:0px;
+width:229px;
+height:55px;
+background-image: url(./images/intro_banner.png);
+background-size: contain;
+background-repeat:no-repeat;
+}
+
+#page_title_small {
+position:static;
+top:20px;
+left:10px;
+width 235px;
+font-family:"Segoe UI";
+font-size:28px;
+visibility: visible;
+color:white;
+}
+
+#page_title_small_captions {
+position:static;
+width 235px;
+font-family:"Segoe UI";
+font-size:14px;
+visibility: visible;
+line-height:100%;
+color:white;
+padding-bottom:5px;
+}
+
+
+a.name,
+a:hover.name,
+a:focus.name,
+a:active.name,
+a:visited.name,
+{
+color:#0000ff;
+text-decoration: none;
+}
+
+:link, :visited {
+color:#0000ff;
+text-decoration: none;
+}
+
+:link:hover, :visited:hover,
+:link:focus, :visited:focus,
+{
+color:#aaaa00;
+text-decoration: hover;
+}
+
+a.warning
+{
+color:#ffff00;
+text-decoration: none;
+font-weight:400;
+font-size:12px;
+}
+
+#a img {
+border:0;
+}
+
+#navigation_mobile {
+position:absolute;
+left: 265px;
+top: 63px;
+width:235px;
+padding-right:10px;
+/*height: 0px;
+overflow: hidden;
+transition: height .25s;
+-moz-transition: height .25s;
+-webkit-transition: height .25s;
+-o-transition: height .25s;*/
+}
+
+
+#navigation {
+visibility:hidden;
+position:static;
+left: 0px;
+top: 0px;
+width:0px;
+}
+
+#navigation-tab-root {
+position:absolute;
+left:245px;
+top:63px;
+width:15px;
+}
+
+
+#navigation-tab {
+position:absolute;
+left:245px;
+top:72px;
+width:15px;
+}
+
+
+#nav_com {
+position:static;
+float:left;
+background-image:url(./images/compositions70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_dax {
+position:static;
+float:left;
+margin-left:5px;
+background-image:url(./images/daxophones70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_imp {
+position:static;
+float:left;
+margin-left:5px;
+background-image:url(./images/improvisation70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_pro {
+position:static;
+float:left;
+padding-top:5px;
+background-image:url(./images/programming70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_sup {
+position:static;
+float:left;
+padding-top:5px;
+margin-left:5px;
+background-image:url(./images/support70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_bio {
+position:static;
+float:left;
+padding-top:5px;
+margin-left:5px;
+background-image:url(./images/about70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_com_mob {
+position:static;
+float:left;
+background-image:url(./images/compositions70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_dax_mob {
+position:static;
+float:left;
+margin-left:5px;
+background-image:url(./images/daxophones70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_imp_mob {
+position:static;
+float:left;
+margin-left:5px;
+background-image:url(./images/improvisation70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_pro_mob {
+position:static;
+float:left;
+margin-top:5px;
+background-image:url(./images/programming70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_sup_mob {
+position:static;
+float:left;
+margin-top:5px;
+margin-left:5px;
+background-image:url(./images/support70x70.png);
+width:70px;
+height:70px;
+}
+
+#nav_bio_mob {
+position:static;
+float:left;
+margin-top:5px;
+margin-left:5px;
+background-image:url(./images/about70x70.png);
+width:70px;
+height:70px;
+}
+
+#content_panel {
+position:static;
+margin-top:10px;
+left:10px;
+width:190px;
+background-color:#eeeeff;
+font-family:"Segoe UI";
+font-size:14px;
+min-height:350px;
+padding:20px;
+}
+
+#content_area {
+position:static;
+background-color:#eeeeff;
+padding:0px;
+font-family:"Segoe UI";
+font-size:14px;
+color:#050011;
+min-height:350px;
+}
+
+#spacer {
+position:relative;
+top:50px;
+width:100%;
+}
+
+#list_column1 {
+position:static;
+font-size:11px;
+}
+
+#list_column2 {
+position:static;
+font-size:11px;
+}
+
+#list_column3 {
+position:static;
+font-size:11px;
+}
+
+
+#content_panel_column2 {
+position:static;
+width:190px;
+background-color:#eeeeff;
+font-family:"Segoe UI";
+font-size:12px;
+min-height:350px;
+padding:20px;
+}
+
+#content_panel_column2-root {
+position:static;
+padding-top:10px;
+width:190px;
+background-color:#eeeeff;
+font-family:"Segoe UI";
+font-size:12px;
+height:565px;
+padding:20px;
+}
+
+#thumbnails_panel_column2 {
+position:static;
+padding-top:10px;
+width:236px;
+min-height:350px;
+padding:0px;
+}
+
+#thumbnails_panel_column2 img {
+padding-right:6px;
+padding-bottom:5px;
+width:70px;
+height:70px;
+}
+
+#tips {
+position:static;
+display:block;
+margin-top:10px;
+background-image:url(./images/tips.jpg);
+background-size: contain;
+background-repeat:no-repeat;
+left:10px;
+width:230px;
+padding-bottom:10px;
+}
+
+#tips2 {
+position:static;
+display:block;
+margin-top:10px;
+background-image:url(./images/tips.jpg);
+background-size: contain;
+background-repeat:no-repeat;
+left:10px;
+width:190px;
+padding-bottom:10px;
+}
+
+#tips3 {
+position:static;
+display:block;
+margin-top:10px;
+background-image:url(./images/tips.jpg);
+background-size: contain;
+background-repeat:no-repeat;
+left:10px;
+width:230px;
+padding-bottom:10px;
+}
+
+
+
+input[type="image"] {
+width:230px;
+}
+
+iframe {
+width:200px;
+}
+
+/*
+#tips {
+position:static;
+margin-top:10px;
+display:block;
+width:230px;
+height:auto;
+}
+*/
+
+#tips-root {
+position:static;
+padding-left:0px;
+padding-top:5px;
+padding-bottom:20px;
+width:270px;
+}
+
+#under_tips {
+position:absolute;
+top: 410px;
+left: 850px;
+}
+
+#composition_content {
+position:relative;
+padding-top:0px;
+padding-right: 100px;
+}
+
+#download_column {
+position: absolute;
+top: 20px;
+width: 70px;
+right:0px;
+}
+
+#dl_column {
+position: relative;
+top:184px;
+left: 117px;
+width:70px;
+}
+
+#70px_icon_download {
+position:relative;
+float:left;
+width:70px;
+height:70px;
+background-color:white;
+}
+
+#70px_icon_padding {
+position:absolute;
+margin-bottom:5px;
+}
+
+#title_large {
+font-size:30px;
+font-family:"Sego UI";
+}
+
+#title_medium {
+font-size:20px;
+font-family:"Sego UI";	
+}
+
+#title_small {
+padding-top:50px;
+padding-bottom:30px;
+font-size:16px;
+font-family:"Segoe UI";	
+font-weight: bold;
+}
+
+#page_nav {
+font-size:12px;
+font-family:"Segoe UI";
+text-decoration:none;
+}
+
+#page_nav a:link, 
+#page_nav a:visited{
+text-decoration:none;
+color:#0000ff;
+}
+
+
+#download_description {
+position:absolute;
+width:100%;
+top:60px;
+left: 4px;
+width:66px;
+font-size: 14px;
+font-family:"Segoe UI";
+float:right;
+text-shadow:
+-2px 0 #006699, 0 2px #006699, 2px 0 #006699, 0 -2px #006699;
+color:white;
+}
+
+#70px_container {
+position:relative;
+padding-bottom:80px;
+}
+
+#dl_icon_first{
+position:relative;
+z-index:0;
+margin-bottom:5px;
+}
+
+#dl_text {
+position:absolute;
+z-index:1;
+padding-top:24px;
+padding-left:4px;
+font-size: 14px;
+width:70px;
+font-family:"Segoe UI";
+float:right;
+text-shadow:
+-2px 0 #006699, 0 2px #006699, 2px 0 #006699, 0 -2px #006699;
+color:white;
+}
+
+#dl_icon{
+position:relative;
+z-index:0;
+margin-bottom:1px;
+}
+
+#content_title {
+position:relative;
+font-family:"Segoe UI";
+font-size:18px;
+width:150px;
+color:#050011;
+line-height:110%;
+}
+
+#recorded_by {
+position:relative;
+width:180px;
+font-size:11px;
+}
+
+#content_text {
+position:relative;
+width:192px;
+font-size:14px;
+}
+
+#big_com {
+position:static;
+padding-left:0px;
+background-image:url(images/compositions310x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:160px;
+height:74px;
+padding-bottom:5px;
+}
+
+
+
+.big_com_icon{
+content:url(images/compositions310x150.png);
+width:160px;
+height:75px;
+}
+
+#big_dax {
+position:static;
+padding-left:0px;
+background-image:url(images/daxophones310x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:160px;
+height:74px;
+padding-bottom:5px;
+}
+
+
+.big_dax_icon{
+content:url(images/daxophones310x150.png);
+width:160px;
+height:75px;
+}
+
+#big_imp {
+position:static;
+padding-left:0px;
+background-image:url(images/improvisation310x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:160px;
+height:74px;
+padding-bottom:5px;
+}
+
+
+
+.big_imp_icon{
+content:url(images/improvisation310x150.png);
+width:160px;
+height:75px;
+}
+
+#big_pro {
+position:static;
+padding-left:0px;
+background-image:url(images/programming310x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:160px;
+height:74px;
+padding-bottom:5px;
+}
+
+
+.big_pro_icon{
+content:url(images/programming310x150.png);
+width:160px;
+height:75px;
+}
+
+#big_sup {
+position:static;
+padding-left:0px;
+background-image:url(images/support310x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:160px;
+height:74px;
+padding-bottom:5px;
+}
+
+
+.big_sup_icon{
+content:url(images/support310x150.png);
+width:160px;
+height:75px;
+}
+
+#big_bio {
+position:static;
+padding-left:0px;
+position:static;
+padding-left:0px;
+background-image:url(images/about310x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:160px;
+height:74px;
+padding-bottom:5px;
+}
+
+
+.big_bio_icon{
+content:url(images/about310x150.png);
+width:160px;
+height:75px;
+}
+
+
+#big150_com {
+position:static;
+padding-left:0px;
+background-image:url(images/compositions150x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:97px;
+height:97px;
+padding-bottom:5px;
+}
+
+#big150_dax {
+position:static;
+padding-left:0px;
+background-image:url(images/daxophones150x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:97px;
+height:97px;
+padding-bottom:5px;
+}
+
+#big150_imp {
+position:static;
+padding-left:0px;
+background-image:url(images/improvisation150x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:97px;
+height:97px;
+padding-bottom:5px;
+}
+
+#big150_pro {
+position:static;
+padding-left:0px;
+background-image:url(images/programming150x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:97px;
+height:97px;
+padding-bottom:5px;
+}
+
+#big150_sup {
+position:static;
+padding-left:0px;
+background-image:url(images/support150x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:97px;
+height:97px;
+padding-bottom:5px;
+}
+
+#big150_bio {
+position:static;
+padding-left:0px;
+position:static;
+padding-left:0px;
+background-image:url(images/about150x150.png);
+background-size: contain;
+background-repeat:no-repeat;
+width:97px;
+height:97px;
+padding-bottom:5px;
+}
+
+
+
+
+
+
+#cc_logo {
+height:75px;
+background-image:url(images/cc.logo.large.png);
+background-size: contain;
+background-repeat:no-repeat;
+}
+
+#content_list {
+position:relative;
+padding-top:10px;
+left:0px;
+width:230px;
+}
+
+#list_entry {
+position:static;
+margin-bottom:5px;
+background-color:#006699;
+font-family:"Segoe UI";
+}
+
+#list_entry_video {
+position:static;
+margin-bottom:5px;
+height: 360px;
+background-color:#006699;
+font-family:"Segoe UI";
+}
+
+#list_entry_audio_and_video {
+position:static;
+margin-bottom:5px;
+height: 400px;
+background-color:#006699;
+font-family:"Segoe UI";
+}
+
+#entry_video {
+position:static;
+padding-left: 15px;
+padding-top: 10px;
+}
+
+#entry_video_flush {
+position:absolute;
+left:20px;
+padding-top:50px;
+}
+
+#entry_title {
+position:static;
+padding-top:10px;
+margin-left:20px;
+color:#ffffff;
+font-size:16px;
+font-weight:0;
+}
+
+#entry_performers {
+position:static;
+top: 40px;
+padding-bottom:10px;
+margin-left:20px;
+color:#ffffff;
+font-size:10px;
+font-weight:0;
+line-height:110%;
+}
+
+#controls_mob {
+position:static;
+margin-left:20px;
+margin-bottom:10px;
+}
+
+#recording_description {
+position:static;
+font-size:11px;
+line-height:110%;
+width: 140px;
+margin-bottom:5px;
+}
+
+#CompactDiscs {
+position:static;
+font-size:11px;
+line-height:110%;
+}
+
+
+#recording {
+color:#7777ff; !important
+text-decoration: none;
+font-size:16px;
+padding-bottom:20px;
+}
+
+#rec_pad {
+background-color:rgb(49,68,79);
+height:40px;
+padding-left:9px;
+padding-top:15px;
+color:#ffffff;
+}
+
+#mp3_pad {
+position:static;
+display:block;
+float:left;
+background-color:rgb(49,68,79);
+height:26px;
+width:180px;
+padding-left:9px;
+padding-top:2px;
+margin-bottom:25px;
+color:#ffffff;
+display:block;
+}
+
+#recording :link, 
+#recording :visited
+{
+color:#ffffff;
+text-decoration: none;
+}
+
+#recording :link:hover, :visited:hover
+{
+color:#aaaaff;
+text-decoration: none;
+}
+
+#recording-noback {
+color:#7777ff; !important
+text-decoration: none;
+height:22px;
+font-size:18px;
+padding:6px;
+}
+
+
+#recording_panel {
+position:static;
+height:100px;
+}
+
+img.patch {
+height:auto;
+width:188px;
+}
+
+.jarimg {
+position:relative;
+left:-20px;
+}
+
+
+#warning {
+font-family:"Segoe UI";
+font-size:10px;
+font-weight:0;
+color:#ffff00;
+float:right;
+margin:15px 30px;
+padding:5px 10px;
+background-color:#000000;
+line-height:120%;
+}
+
+#textwrap {
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+#tiny {
+font-size:9px;
+}

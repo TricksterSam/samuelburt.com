@@ -1,0 +1,159 @@
+<html>
+<head>
+  <meta name="verify-v1" content="MxaGalM+0v9Usij73yzLLbyBD57+KzBnUnmLgVd3pQo=">
+  <meta content="text/html; charset=UTF-8"
+ http-equiv="content-type">
+  <meta name="keywords" content="samuel, burt, samuel burt, composer, composition, commission, experimental, high zero, red room, baltimore, baltimore composer, orchestra, new music, pictures, after now, mobtown modern, bio, electronic, modern, calendar, shows, alumni, UGA, Peabody, death in the maze, geodesic gnome, notation">
+
+  <!-- TemplateBeginEditable name="doctitle" -->
+  
+  <title>Samuel Burt, Dime Novel</title>
+  
+  <!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../win8style.css">
+
+ <meta property="og:type" content="musician" />
+ <meta property="og:url" content="http://samuelburt.com" />
+<meta property="og:site_name" content="Samuel Burt, Composer" />
+<meta property="fb:admins" content="658068437" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body style="color: rgb(0, 0, 0); background-color:#050011;">
+
+<!-- TemplateBeginEditable name="meta title" -->
+
+meta title  <meta property="og:title" content="Samuel Burt, Dime Novel" />
+
+<!-- TemplateEndEditable -->
+
+<div id="page_title"><img src="../images/intro_banner.png"></div>
+
+	<div id="nav_com"><a href="../compositions"><img src="../images/compositions150x150.png"></a>
+	</div>
+	<div id="nav_dax"><a href="../daxophones"><img src="../images/daxophones150x150.png"></a>
+	</div>
+	<div id="nav_imp"><a href="../improvisation"><img src="../images/improvisation150x150.png"></a>
+	</div>
+	<div id="nav_pro"><a href="../programming"><img src="../images/programming150x150.png"></a>
+	</div>
+	<div id="nav_sup"><a href="../support"><img src="../images/support150x150.png"></a>
+	</div>
+	<div id="nav_bio"><a href="../about"><img src="../images/about150x150.png"></a>
+	</div>
+
+
+	<div id="content_panel">
+
+
+			<div id="content_title"><!-- TemplateBeginEditable name="content title" -->Dime Novel<!-- TemplateEndEditable --></div>
+
+			<div id="composition_content">
+				<div id="download_column">
+
+
+<div id="dl_column">
+
+<div id="dl_icon_first"><!-- TemplateBeginEditable name="mp3 link" -->
+<a class="name" href="../compositions/recordings/Burt-DimeNovel.mp3">
+
+<!-- TemplateEndEditable --></div><img  src="../images/download_recording70x70.png"></a>
+
+<div id="container">
+<div id="dl_text"><!-- TemplateBeginEditable name="score description" -->
+
+<a class="name" href="../compositions/scores/DimeNovel-piano.pdf">Piano part (full score)</a>
+
+<!-- TemplateEndEditable --></div>
+<div id="dl_icon">
+<img src="../images/download_score70x70.png">
+</div>
+</a>
+</div>
+<!-- TemplateBeginEditable name="additional parts" -->
+
+additional parts
+
+<!-- TemplateEndEditable --> </div>
+
+
+<!--
+<a class="name" href="DimeNovel-piano.pdf">
+						<div id="70px_icon_download">
+							<div id="70px_icon_padding">
+<img src="../images/download_score70x70.png">
+							</div>
+						</div>
+						<div id="download_description">
+Piano part (full score
+						</div>
+</a>
+
+
+
+
+
+<a class="name" href="DimeNovel-violin.pdf">
+						<div id="70px_icon">
+							<div id="70px_icon_padding">
+<img  src="../images/download_score70x70.png">
+							</div>
+						</div>
+						<div id="download_description">
+Violin part
+						</div>
+</a>
+-->
+
+					
+				</div>
+
+
+				<div id="recorded_by"><!--TemplateBeginEditable name="instrumentation" -->
+                
+For violin and piano
+
+<!-- TemplateEndEditable -->
+
+				  <p>
+Recorded by:<br>
+
+<!-- TemplateBeginEditable name="performers" -->
+
+Aurelie Bazinger-Dinnerstein, violin <br>
+John Chernoff, piano
+
+<!-- TemplateEndEditable -->
+
+</div>
+
+<p>
+<div id="content_text"><!-- TemplateBeginEditable name="description" -->With only two performers and three minutes to tell its story, Dime Novel manages to takes the listener on a long journey. The work features mathematically precise but organic sounding transitions from one musical location to another plus harmonic and melodic elements that are at times indistinguishable. Rhythmically alive and witty, Dime Novel is quite accessible.
+    <p> Phrasing is a key component of Dime Novel, often hearkening back to the old ways of music -- the length of an exhalation, the duration of a sentence, punctuated and complete. Musically rhyming, the repeated chords and fragments produce a multi-dimentional poem.
+      
+      
+    <!-- TemplateEndEditable -->
+  <p></div>
+			</div>
+
+
+
+<audio controls="controls"><!-- TemplateBeginEditable name="streaming_audio" -->
+
+<source src="recordings/Burt-DimeNovel.mp3" type="audio/mp3">
+<source src="recordings/Burt-DimeNovel.ogg" type="audio/ogg">
+
+<!-- TemplateEndEditable -->
+  <div id="warning">Your browser does not support HTML5 audio.</div>
+  <!-- TemplateBeginEditable name="audio_link" --> 
+  
+  <a class="warning" href="../compositions/recordings/Burt-DimeNovel.mp3">Download instead.</a> 
+  
+  <!-- TemplateEndEditable --></audio>
+
+		</div>
+</div>
+
+
+</body>
+</html>

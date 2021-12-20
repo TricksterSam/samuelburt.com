@@ -1,0 +1,431 @@
+@charset "utf-8"
+
+body {}
+
+body a, body a:link, body a:visited {
+  color: #d60000;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+body a:hover {
+  color:#d3a013;
+}
+
+body {
+  background-color:#deded6;
+/*  font-size: 0.618em;*/
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #242424;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.my-iframe {
+  position: relative;
+     padding-top: 10px;
+     height: 100%;
+     width: 100%;
+     overflow: auto;
+     -webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY
+}
+
+.myIframe iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+
+.splash {
+  grid-area: splash;
+  font-size: 19px;
+  background-size:contain;
+  padding-top: 44.4%;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  width:100%;
+  background-color: #333333;
+  background-size:contain;
+  -webkit-background-size: contain;
+  -mox-background-size: contain;
+  -o-background-size: contain;
+}
+
+.sitelinks {
+  background: url('images/sitelinks.png');
+  background-repeat:repeat-y;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -mox-background-size: contain;
+  -o-background-size: contain;
+  width: 100%;
+  height: 100%;
+
+}
+
+#rec {
+  background-image: url('images/splash_rec.jpg');
+}
+
+#front {
+    background-image: url('images/splash.jpg');
+}
+
+#comp {
+  background-image: url('images/splash_comp.jpg');
+}
+
+#improv {
+  background-image: url('images/splash_improv.jpg');
+}
+
+#bio {
+  background-image: url('images/splash_bio.jpg');
+}
+
+#dax {
+  background-image: url('images/splash_dax.jpg');
+}
+
+.art_state {
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-color: #d3d3d3;
+  border-width: thin;
+  border-style: solid;
+  background-color: #ffffff;
+
+}
+
+.grid-nav {
+  grid-area: nav;
+  padding-top: 12px;
+  padding-right: 15px;
+  padding-left: 10px;
+  font-size: 0.9em;
+  line-height: 2;
+  letter-spacing: 4px;
+  width: 150px;
+  /*background-image: url('images/sitelinks.png');
+  background-size: 100%;
+  background-repeat:no-repeat;
+  */
+}
+
+.pop-nav {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  font-size: 1.25em;
+  background-color:#ffffff;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  border-color: #d60000;
+  border-width: thin;
+  border-style: solid;
+}
+
+.grid-button {
+  padding: 15px;
+  font-size: 2em;
+}
+
+.grid-main {
+  grid-area: main;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-bottom: 30px;
+  padding-right: 25px;
+  font-size: 0.9em;
+  background-color:#efefec;
+  outline-color:#d60000;
+  outline-width: medium;
+  outline-style:solid;
+  max-width: 700px;
+}
+
+.grid-foot {
+  grid-area: foot;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1em;
+  background-color:#deded6;
+  text-align: center;
+}
+
+.grid-foot img{
+  height: 25px;
+  padding-right: 5px;
+}
+
+.grid-foot a, .grid-foot a:hover {
+  background-color:#deded6;
+}
+
+.grid-container {
+  color: #050505;
+  margin-left: 5px;
+  margin-right: 25px;
+  padding-top: 10px;
+}
+
+.large-text {
+  font-size: 1.5em;
+}
+
+.small-text {
+  font-size: 0.75em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.righted {
+  text-align: right;
+}
+
+
+.section-title {
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-color: #d0d0d0;
+  border-width: thin;
+  border-style: solid;
+}
+
+.black-back {
+  background-color: #030303;
+  padding-top: 30px;
+  padding-bottow: 30px;
+}
+
+.grid-main img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+audio {
+  width: 100%;
+  border-color: #d0d0d0;
+  border-width: thin;
+  border-style: solid;
+  background-color: #ffffff;
+}
+
+audio .controls {
+    color: #030303 !important;
+}
+
+/*   Mobile Phone Screen   */
+@media only screen and (max-width: 480px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: 'main''foot';
+    grid-gap: 10px;
+  }
+  .grid-nav {
+    display: none;
+    padding-top: 0px;
+  }
+  #menuToggle {
+    display: block;
+  }
+  #grid-button {
+    display: block;
+  }
+  #menuToggle span {
+    display: block;
+  }
+  #grid-nav {
+    display: none;
+  }
+  .splash {
+    margin-top: -26px;
+  }
+
+}
+
+@media only screen and (min-width: 480px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: 'nav main main''nav foot foot';
+    grid-gap: 10px;
+
+  }
+  #menuToggle {
+    display: none;
+  }
+  #grid-button {
+   display: none;
+ }
+  #menuToggle span {
+    display: none;
+  }
+  #grid-nav {
+    display: block;
+  }
+}
+
+  @media only screen and (min-width: 720px) {
+    .grid-container {
+      display: grid;
+      grid-template-areas: 'nav main main main main main''nav foot foot foot foot foot';
+      grid-gap: 10px;
+    }
+    #menuToggle {
+      display: none;
+    }
+    #grid-button {
+      display: none;
+    }
+    #menuToggle span {
+      display: none;
+    }
+    #grid-nav {
+      display: none;
+    }
+  }
+
+
+  /*
+   * Made by Erik Terwan
+   * 24th of November 2015
+   * MIT License
+   *
+   *
+   * If you are thinking of using this in
+   * production code, beware of the browser
+   * prefixes.
+   */
+
+
+  #menuToggle
+  {
+    position: relative;
+    top: 50px;
+    left: 15px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle input
+  {
+    /*display: block;*/
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+
+  /*
+   * Just a quick hamburger
+   */
+  #menuToggle span
+  {
+    /*display: block;*/
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #efefec;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.25s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.25s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+
+  /*
+   * Transform all the slices of hamburger
+   * into a crossmark.
+   */
+  #menuToggle input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #efefec;
+  }
+
+  /*
+   * But let's hide the middle one.
+   */
+  #menuToggle input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  /*
+   * Ohyeah and the last one should go the other direction
+   */
+  #menuToggle input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  /*
+   * Make this absolute positioned
+   * at the top left of the screen
+   */
+  #menu
+  {
+    position: absolute;
+    width: 90%;
+    margin: -180px 0 0 -60px;
+    padding: 50px;
+    padding-top: 125px;
+
+
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.25s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+
+
+
+  /*
+   * And let's slide it in from the left
+   */
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+  }
